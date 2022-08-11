@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>asepi
+    </title>
+</head>
+<body>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            font-size: 62.5%;
+            scroll-behavior: smooth;
+        }
+
+                @media (max-width: 75em) {
+        html {
+            font-size: 60%;
+        }
+        }
+
+        /* 980px / 16px = 61.25em */
+        @media (max-width: 61.25em) {
+        html {
+            font-size: 58%;
+        }
+        }
+
+        /* 460px / 16px = 28.75em */
+        @media (max-width: 28.75em) {
+        html {
+            font-size: 55%;
+        }
+        }
+
+        body {
+            font-size: 1.6rem;
+            line-height: 1.4;
+            font-weight: 400;
+            color: rgba(0, 0, 0, 0.904);
+        }
+
+        h1 {
+            font-family: sans-serif;
+            font-weight: 700;
+            font-size: 6rem;
+            text-align: center;
+        }
+
+
+        ul{
+            list-style: none;
+            text-shadow: 1px, 1px, 1px, rgba(0, 0, 0, 0.4);
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
+        }
+
+        .navbar {
+            display: flex;
+            position: fixed;
+            justify-content: flex-end;
+            background: rgba(185, 3, 3, 0.959);
+            top: 0;
+            left: 0;
+            width: 100%;
+            box-shadow: 0 2px 0 rgba(0, 0, 0, 0.904);
+            z-index: 10;
+        }
+
+        .nav-list {
+            display: flex;
+            margin-right: 2rem;
+        }
+
+        .nav-list a {
+            display: block;
+            font-size: 2.2rem;
+            padding: 20px;
+        }
+
+        .nav-list a:hover {
+            background: rgb(59, 59, 151);
+        }
+
+                @media (max-width: 28.75em) {
+        .navbar {
+            justify-content: center;
+        }
+
+        .nav-list {
+            margin: 0 1rem;
+        }
+        }
+
+        .welcome {
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            background: rgba(17, 15, 15, 0.897);
+            color: rgba(240, 248, 255, 0.781);
+            padding: 0 2rem;
+        }
+
+        .welcome p {
+            font-size: 2rem;
+            padding: 10rem 2rem;
+            color: rgba(238, 12, 12, 0.925);
+            font-style: italic;
+        }
+    </style>
+    <nav class="navbar">
+        <ul class="nav-list">
+            <li><a href="#about">About</a></li>
+            <li><a href="#putaso">Putaso</a></li>
+            <li><a href="#asepi">asepi</a></li>
+        </ul>
+    </nav>
+    <section class="welcome">
+    <h1 class="title">En un pais multicolor</h1>
+    <p>la vida puede ser maravillosa</p>
+    </section>
+</body>
+</html>
