@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Dachshund World</title>
+</head>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+    html {
+  /* Setting a base font size of 10px give us easier rem calculations
+     Info: 1rem === 10px, 1.5rem === 15px, 2rem === 20px and so forth
+   */
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+
+}
+
+body {
+  /* Native font stack https://getbootstrap.com/docs/4.2/content/reboot/#native-font-stack */
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',
+    'Helvetica Neue', Arial, sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  text-align: center;
+  color: #333;
+}
+
+h1 {
+  font-size: 4rem;
+  margin-bottom: 0;
+}
+
+@media (max-width: 460px) {
+  h1 {
+    font-size: 3.5rem;
+    line-height: 1.2;
+  }
+}
+
+h2 {
+  font-size: 3.25rem;
+}
+
+h1,
+h2 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.nav {
+  display: flex;
+  justify-content: flex-end;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: rgba(255, 0, 0, 0.74);
+  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
+  z-index: 10;
+}
+
+.nav-list {
+  display: flex;
+  margin-right: 2rem;
+}
+
+@media (max-width: 28.75em) {
+  .nav {
+    justify-content: center;
+  }
+
+  .nav-list {
+    margin: 0 1rem;
+  }
+}
+
+.nav-list a {
+  display: block;
+  font-size: 1.8rem;
+  padding: 2rem;
+}
+
+.nav-list a:hover {
+  background: rgb(103, 103, 180);
+}
+
+.welcome-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 88vh;
+}
+</style>
+<body>
+    <main id="main">
+        <nav id="navbar" class="nav">
+            <ul class="nav-list">
+                <li><a class="nav-link" href="#contenido">Contenido</a></li>
+                <li><a class="nav-link" href="#cuales son los tipos de perro salchicha">¿Cuáles son los tipos de perro salchicha?</a></li>
+                <li><a class="nav-link" href="#3 tamaños de dachshund">3 tamaños de dachshund</a></li>
+            </ul>
+        </nav>
+        <header class="welcome-section">
+    <h1>El mundo de los perros Salchicha</h1>
+    <p>Introduccion a los Dachshund</p>
+        <figure>
+    <a href="https://es.wikipedia.org/wiki/Dachshund" target="blanc"><img style="width:750px;" src="https://1.bp.blogspot.com/-TBQcCXUdd24/X29fXfELFEI/AAAAAAAAs_o/DduzesAJEZkxc4ZbKqwu5c7SWyKg1jBJQCLcBGAsYHQ/s640/How_social_are_Dachshunds_5.webp" alt="simpaticos perros salchicha"></a>
+    <figcaption>
+        El salchicha, teckel, tejonero o dachshund es un perro al que todos conocen por la singularidad de su cuerpo alargado. Es una raza inconfundible, muy fácil de reconocer. Pero, ¿sabías que no todos los teckel son iguales? ¿Conoces cuáles son los diferentes tipos de salchicha?
+    </figcaption>
+        </figure>
+    </header>
+    <section>
+        <h2>¿Cuáles son los tipos de perro salchicha?</h2>
+
+        <h3>1. Perro salchicha estándar</h3>
+
+        <p>
+        Este es el perro salchicha por excelencia. Un teckel estándar adulto alcanzará de 20 a 23 cm de altura a la cruz, un peso promedio de 7.3 a 15 kg, y una circunferencia de pecho de más de 35 cm. Se trata de un perro mediano.
+        </p>
+        <img class="smaller-image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQE9JCOko5-5ba9kVChu9hUoN55V37CISch-A&usqp=CAU" alt="perro salchicha estandar">
+
+        <h3>2. Perro salchicha miniatura</h3>
+
+        <p>
+        Tal y como su nombre indica, el salchicha miniatura o enano es una versión más pequeña que el perro estándar, con una altura de 13 a 15 cm y un peso promedio de 4 a 5 kg (nunca por encima de las 11 libras). La circunferencia del pecho en los teckel mini va de 30 a 35 cm, llegando a 37 cm en algunos machos.
+        </p>
+
+    <img class="smaller-image" src="https://perrosexpertos.com/wp-content/uploads/2019/02/Perro-Salchicha-Mini0-min.jpg" alt="perro salchicha mini">
+
+    <h3>3. Perro salchicha kaninchen</h3>
+
+    <p>
+        El tejonero de tipo kaninchen, también llamado “teckel para la caza de conejo” o salchicha toy, es el más pequeño entre todos los salchichas; su tamaño no supera los 13 cm de alto. El peso no debe sobrepasar los 3.5 kg y la circunferencia del pecho no excede los 30 cm.
+    </p>
+
+    <img class="smaller-image" src="https://www.zooroyal.de/magazin/wp-content/uploads/2017/05/rauhaardackel-hunderassen-760x560.jpg" alt="perro salchicha kanichen">
+
+    <p>
+        Hasta aquí hemos visto cuáles son los tipos de teckel que gozan de reconocimiento oficial por los clubes más importantes del mundo. Otras asociaciones y criadores locales hablan de una cuarta variedad, refiriéndose a los ejemplares que pesan entre 5 y 7 kg. Este sería un tipo de salchicha intermedio entre el estándar y el miniatura.
+    </p>
+</section>
+    </main>
+</body>
+</html>
